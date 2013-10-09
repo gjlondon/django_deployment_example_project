@@ -1,4 +1,7 @@
 Django==1.5.2
-setuptools==1.0
-wsgiref==0.1.2
+distribute==0.6.27
+django-appconf==0.6
 django-staticfiles==1.2.1
+psycopg2==2.5.1
+six==1.4.1
+wsgiref==0.1.2
