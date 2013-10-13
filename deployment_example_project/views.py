@@ -15,4 +15,4 @@ def home(request):
     :return response:
     """
     return render_to_response('hello_world.html',
-                              context_instance=RequestContext(request)
+                              context_instance=RequestContext(request))
