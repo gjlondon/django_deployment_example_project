@@ -126,6 +126,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
 
     "gunicorn",
+    "deployment_example_project"
 )
 
 # A sample logging configuration. The only tangible logging
