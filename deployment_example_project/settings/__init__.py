@@ -8,6 +8,7 @@ try:
 except ImportError:
     from deployment_example_project.settings.base import *
 
+"""
 try:
     # add the /shared directory so that migrate can run
     # before the /release directories are symlinked
@@ -16,3 +17,4 @@ try:
 except ImportError:
     print "import error"
     pass
+"""

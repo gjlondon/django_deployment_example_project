@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    {% load static %}
     <title>Hello World</title>
 </head>
 <body>
-<h1>Hello Carl!</h1>
+<h1>Hello World!</h1>
+<img src="{% get_static_prefix %}img/bowl.gif">
 </body>
 </html>

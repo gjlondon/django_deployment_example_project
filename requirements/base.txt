@@ -1,3 +1,4 @@
 Django==1.5.2
 psycopg2==2.5.1
 django-celery==3.0.23
+dj-static==0.0.5
